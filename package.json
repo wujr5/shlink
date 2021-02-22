@@ -13,7 +13,7 @@
   },
   "author": "",
   "license": "Apache-2.0",
-  "devDependencies": {
+  "dependencies": {
     "commander": "^7.1.0",
     "node-html-parser": "^2.2.0",
     "superagent": "^6.1.0"
