@@ -1,13 +1,18 @@
 {
-  "name": "dwz",
+  "name": "shlink",
   "version": "1.0.0",
-  "description": "",
+  "description": "shorten long url to short one",
   "main": "index.js",
+  "homepage": "https://github.com/wujr5/shlink",
+  "bugs": {
+    "url" : "https://github.com/wujr5/shlink/issues",
+    "email" : "973430584@qq.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "commander": "^7.1.0",
     "node-html-parser": "^2.2.0",
@@ -16,5 +21,8 @@
   "keywords": [
     "shorten url",
     "短网址"
-  ]
+  ],
+  "bin": {
+    "shlink": "./index.js"
+  }
 }
